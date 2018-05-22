@@ -1,25 +1,9 @@
 import React, { Component } from 'react';
+import Text from './Text';
 import logo from './logo.svg';
 import './App.css';
 
-class Text extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      color: props.color,
-      value: props.value
-    }
-  }
-
-  render() {
-    return (
-      <span style={{'color': this.state.color}}>{this.state.value}</span>
-    );
-  }
-}
-
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <div className="App">
         <header className="App-header">
@@ -31,7 +15,6 @@ class App extends Component {
         </p>
       </div>
     );
-  }
 }
 
 export default App;
