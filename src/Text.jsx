@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const Text = ({ color, value }) => {
+const Text = ({ color, children }) => {
     return (
-            <span style={{ 'color': color }}>{value}</span>
+            <span style={{ 'color': color }}>{children}</span>
     );
 }
 

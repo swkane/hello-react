@@ -11,7 +11,7 @@ const App = () => {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          <h1>Hello, <Text color="purple" value="Sam" /></h1>
+          <h1>Hello, <Text color="purple">Sam</Text></h1>
         </p>
       </div>
     );
